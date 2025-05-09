@@ -5,13 +5,13 @@
 ## **Change:**
 - Devices -> ATA Drive Setup -> Configure SATA as [AHCI]
 - Devices -> Video Setup -> Pre-Allocated Memory Size [64MB or more]
-- Startup -> Boot Mode [UEFI Only]
+- Startup -> Boot Mode (CSM Disabled) [UEFI Only]
 
 ## **Disable:**
 - Advanced -> CPU Setup -> VT-d
 - Advanced -> Intel(R) Rapid Start Technology -> Intel(R) Rapid Start Technology
 - Advanced -> Intel(R) Smart Connect Technology -> Intel(R) Smart Connect Technology
-- Security -> Secure Boot -> Secure Boot
+- Security -> Secure Boot -> Secure Boot ->
 
 ## **Enable:**
 - Advanced -> CPU Setup -> Core Multi-Processing
