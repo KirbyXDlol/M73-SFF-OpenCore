@@ -11,7 +11,7 @@
 - Advanced -> CPU Setup -> VT-d
 - Advanced -> Intel(R) Rapid Start Technology -> Intel(R) Rapid Start Technology
 - Advanced -> Intel(R) Smart Connect Technology -> Intel(R) Smart Connect Technology
-- Security -> Secure Boot -> Secure Boot ->
+- Security -> Secure Boot -> Secure Boot 
 
 ## **Enable:**
 - Advanced -> CPU Setup -> Core Multi-Processing
