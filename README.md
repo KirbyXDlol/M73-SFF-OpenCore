@@ -42,8 +42,7 @@
 
   | Step # | Link/Directions |
   | :-: | :-: |
-  | 0.25** | Grab a supported Broadcom WiFi card [from here](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/mpcie.html), a supported Intel WiFi card (kext not included) [from here](https://openintelwireless.github.io/itlwm/Compat.html#), or a supported USB WiFi adapter (kext not included) [from here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter#%EF%B8%8E---known-working-and-testing-adapter) if you want WiFi support. |
-  | 0.5 | [**For ThinkCentre M83 Tiny and M93p users**, follow this guide to increase the chances of this configuration working correctly.](/Resources/Documentation/M83andM93.md) |
+  | 0.5 | Grab a supported Broadcom WiFi card [from here](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/mpcie.html), a supported Intel WiFi card (kext not included) [from here](https://openintelwireless.github.io/itlwm/Compat.html#), or a supported USB WiFi adapter (kext not included) [from here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter#%EF%B8%8E---known-working-and-testing-adapter) if you want WiFi support. |
   | 1 | [Creating the USB (Do not move the EFI folder. ProperTree is not needed.)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer) |
   | 2 | Move the "EFI" folder from this repository to the "EFI" partition on macOS, to the root of your USB drive on Windows, or to the "OPENCORE" partition on Linux. Make sure to move the whole folder itself and not just the files inside the folder. |
   | 3 | [Modify your BIOS settings according to this document. Skip "VT-d" if you do not see it in your BIOS.](/Resources/Documentation/BIOSSettings.md) |
