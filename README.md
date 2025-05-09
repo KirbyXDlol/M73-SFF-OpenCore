@@ -63,6 +63,9 @@
 
   ## Known Issues
 
+  ### Unable to boot from Internal Drive
+  **Depending on System, Some PC causes unable to boot from Hard Drive. You'll have to use USB for booting. (If it's working on Updated BIOS, Let me know.)**
+
   ### AMFI
   **AMFI (Apple Mobile File Integrity is _Disabled_ or causes bootlooping.**
 
