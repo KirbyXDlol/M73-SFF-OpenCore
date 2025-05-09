@@ -1,19 +1,10 @@
 <div align="center">
 
-  <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="Image of a Lenovo ThinkCentre M73 Tiny." width="400px"/>
+  <img src="https://files.refurbed.com/pi/lenovo-thinkcentre-m73-i4g-1604301233.jpg" alt="Image of a Lenovo ThinkCentre M73 SFF." width="60px"/>
   
-  # **OpenCore 1.0.0 for the Lenovo ThinkCentre M73 Tiny**
-  
-  [![OpenCore 1.0.0](https://img.shields.io/badge/OpenCore-1.0.0-004852)](https://github.com/acidanthera/OpenCorePkg)
-  [![macOS Big Sur 11.0 to Sonoma 14.5](https://img.shields.io/badge/macOS-Big%20Sur%2011.0%20to%20Sonoma%2014.5-7D1B35?logo=apple)](https://apple.com/macos/sonoma)
+  # **OpenCore 1.0.0 for the Lenovo ThinkCentre M73 SFF**
 
-  [![Maintained? Partially.](https://img.shields.io/badge/Maintained%3F-Partially.-666600.svg)](/Resources/Documentation/Maintenance.md)
-  
-  [![Download](https://img.shields.io/badge/Download-114B14?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJNNC45NyAxMS4wM2EuNzUuNzUgMCAxIDEgMS4wNi0xLjA2TDExIDE0Ljk0VjIuNzVhLjc1Ljc1IDAgMCAxIDEuNSAwdjEyLjE5bDQuOTctNC45N2EuNzUuNzUgMCAxIDEgMS4wNiAxLjA2bC02LjI1IDYuMjVhLjc1Ljc1IDAgMCAxLTEuMDYgMGwtNi4yNS02LjI1Wm0tLjIyIDkuNDdhLjc1Ljc1IDAgMCAwIDAgMS41aDE0LjVhLjc1Ljc1IDAgMCAwIDAtMS41SDQuNzVaIiBzdHlsZT0iZmlsbDojZmZmZmZmIj48L3BhdGg+PC9zdmc+)](https://github.com/UHDbits/M73-Tiny-OpenCore/releases/latest)
-  [![Click here for legacy Mac OS X/macOS support.](https://img.shields.io/badge/Click%20here%20for%20legacy%20Mac%20OS%20X%2FmacOS%20support.-792316)](https://github.com/UHDbits/M73-Tiny-OpenCore/tree/legacy)
-  
-  | ![An image of Big Sur's "About This Mac".](/Resources/Images/About%20This%20Mac/DarkBigSurAboutThisMac.png#gh-dark-mode-only) ![An image of Big Sur's "About This Mac".](/Resources/Images/About%20This%20Mac/LightBigSurAboutThisMac.png#gh-light-mode-only) | ![An image of Sonoma's "About This Mac".](/Resources/Images/About%20This%20Mac/DarkSonomaAboutThisMac.png#gh-dark-mode-only) ![An image of Sonoma's "About This Mac".](/Resources/Images/About%20This%20Mac/LightSonomaAboutThisMac.png#gh-light-mode-only) |
-  | ----------------------------------------- | ----------------------------------------- |
+![An image of Sonoma's "About This Mac".](https://files.catbox.moe/dsg0xk.png)
   
   ## ⚠️ WARNING ⚠️
   
@@ -33,15 +24,15 @@
   
   | Component | Model |
   | :-: | :-: |
-  | CPU | Intel Core i7-4785T (4c8t) @ 2.20GHz |
+  | CPU | Intel Core i5-4570 @ 3.60GHz |
   | Chipset | Intel H81 Express |
   | Internal GPU | Intel HD Graphics 4600 |
-  | RAM | 2x8GB (16GB) of DDR3-1600 |
-  | Storage | ADATA SU800 512GB SATA SSD |
-  | Audio | Realtek ALC283 |
-  | External Display | Lenovo ThinkVision T24i-20 (1920x1080 @ 60Hz)
-  | Ethernet | Intel Ethernet Connection I217-V |
-  | Internal WiFi/Bluetooth | AzureWave AW-CE123H (BCM94352HMB) |
+  | RAM | 8GB of DDR3-1600 |
+  | Storage | SAMSUNG MZ7LF120HCHP-000L1 |
+  | Audio | Realtek ALC662 |
+  | External Display | TEKILO TK24HG5 |
+  | Ethernet | Realtek RTL8111GN |
+  | Internal WiFi/Bluetooth | None |
   
   **If your system does not match these specifications, it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue, and I will try to help you to the best of my ability.**
 
@@ -71,6 +62,9 @@
   **If you want to update OpenCore manually, you can follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore) (harder to follow, but recommended and tells you how to update macOS), or follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) (easier to follow, but not recommended.) If you want to update macOS 13 Ventura or macOS 14 Sonoma, follow [this guide here.](/Resources/Documentation/OCLP.md#before-updating-macos)**
 
   ## Known Issues
+
+  ### AMFI
+  **AMFI (Apple Mobile File Integrity is _Disabled_ or causes bootlooping.**
 
   ### OpenCore Legacy Patcher Issues
   **Because macOS 13 Ventura and macOS 14 Sonoma do not officially support the hardware featured in this ThinkCentre, we have to use a tool called "OpenCore Legacy Patcher" to apply patches that allow us to use Ventura and Sonoma normally. Sadly, these patches do have some minor issues. To check the issues that affect this ThinkCentre, check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008/) and look for "Haswell" in "Known Issues". As mentioned before, these bugs are quite minor and will not affect most people.**
